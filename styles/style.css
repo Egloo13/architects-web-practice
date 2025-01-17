@@ -124,6 +124,47 @@ a {
     margin-left: 70px;
  }
 
+ /* facts style */
+ .fact-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding-top: 60px;
+ }
+ .fact {
+    text-align: center;
+    padding: 20px;
+    font-size: 2rem;
+    width: 240px; height: 240px;
+    border-radius: 8px;
+    border: 1px solid red;
+    justify-content: center;
+    align-items: center;
+ }
+ 
+ .section-title {
+    font-size: 2.8rem;
+    font-weight: bold;
+    padding-bottom: 20px;
+ }
+ .fact-icon {
+    margin-top: 40px;
+ }
+ .fact-name {
+    font-size: 1.1rem;
+    font-weight: semibold;
+    color: #727272;
+    margin-top: 10px;
+ }
+ .fact-number {
+    font-size: 2.8rem;
+    font-weight: semibold;
+    color: #424242;
+    margin-top: 10px;
+    margin-bottom: 10px;
+ }
 /* responsive style */
 @media screen and (max-width: 576px)  {
    .team, ul, .navbar {
