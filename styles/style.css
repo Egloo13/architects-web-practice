@@ -1,0 +1,155 @@
+body {
+    font-family: "Work Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 400px;
+  font-style: normal;
+  
+  
+}
+/* sheared styles */
+.display-flex {
+    display: flex;  
+}
+.dark-1 {
+    color: #131313;
+}
+.dark-2 {
+    color: #424242;
+}
+.dark-3 {
+    color: #727272;
+}
+.bg-color1 {
+    background-color:rgb(239, 181, 181);
+}
+.btn-pry {
+    background-color: #FF9000;
+    color: white;
+    padding: 20px 24px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    font-weight: semi-bold;
+}
+
+
+main {
+    max-width: 1440px;
+    margin: 0 auto;
+   }
+   section {
+    margin-top: 60px;
+   }
+    
+
+
+/* header style */
+
+.navbar {
+    align-items: center;
+    justify-content: space-between;
+    font-size:18px;
+    font-weight: medium;
+    padding: 0 240px;
+}
+nav>h3 {
+    font-weight: bold;
+    font-size: 3rem;
+}
+ul {
+    list-style-type: none;
+    gap: 40px;
+    font-size: 20px;  
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* banner styles */
+
+.banner {
+    padding: 0 240px;
+}
+.banner-content {
+    max-width: 862px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#img {
+    padding-top: 30px;
+    width: 100%;
+
+}
+
+.banner-heading {
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+
+/* feature section style */
+.fe-pi-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding-top: 60px; 
+}
+.team {
+    align-items: center;
+    gap: 60px;
+
+}
+.fe-pi-content {
+    max-width: 537px;
+    
+}
+#quick {
+    font-size: 2.8rem;
+}
+
+/* extra features style */
+ .love-img {
+    width: 800px; height: 1059px;
+    border: 1px solid red;
+ }
+ #size {
+    width: 708px; height: 982px;
+    margin-left: 70px;
+ }
+
+/* responsive style */
+@media screen and (max-width: 576px)  {
+   .team, ul, .navbar {
+    flex-direction: column;
+   }
+   .fe-pi-container {
+    grid-template-columns: 1fr;
+   }
+   .txt {
+    text-align: center;
+    }
+    .navbar, .banner {
+        padding: 0 10px;
+     }
+}
+/* medium size device */
+
+@media screen and (min-width: 576px) and (max-width: 992px) {
+   .team, ul, .navbar {
+    flex-direction: column;
+   
+   }
+   .txt {
+    text-align: center;
+    }
+   
+}
+
+
