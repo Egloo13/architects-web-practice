@@ -10,10 +10,10 @@
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-    <header class="bg-color1">
-        <nav class="navbar display-flex">
+    <header class="bg-color1 header">
+        <nav id="nav" class="navbar display-flex">
         <h3 class="dark-1">G3 Architects</h3>
-        <ul class="display-flex dark-2">
+        <ul id="bar" class="display-flex dark-2">
             <li><a href="#">Home</a></li>
             <li><a href="#">About</a></li> 
             <li><a href="#">Contact Us</a></li>
@@ -50,11 +50,12 @@
    
  </section>
     <!-- exta features section -->
-     <section class="exta-features display-flex">
-        <div class="love display-flex">
-            <div class="love-container">
-               <h3>Features you will love & enjoy</h3>
+     <section class="">
+      <div class="exta-features display-flex">
+        <div class="love">
+            <h2 id="love-title">Features you will <br> love & enjoy</h2>
                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even</p>
+            <div class="love-container">
                <div class="love-des">
                 <h4>Dexktop & Mobile Version</h4>
                 <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised...........</p>
@@ -72,10 +73,16 @@
                 <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised...........</p>
                </div>
             </div>
+        </div>
             <div class="love-img">
                 <img id="size" src="images/architect.png" alt="">
+                <button class="btn-pry badge">
+                    <span id="large">10+Year</span>
+                    <br>
+                   <span id="exp">Experience</span>
+                </button>
             </div>
-        </div>
+      </div>
      </section>
      <!-- facts section -->
       <section class="facts">
@@ -120,8 +127,8 @@
       </section>
     </main>
     <!-- footer section -->
-    <footer>
-       
+    <footer class="bg-color1">
+       <p>All rights reserved copyright@2023 startup landing page design</p>
     </footer>
 </body>
 </html>

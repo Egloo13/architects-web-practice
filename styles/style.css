@@ -115,14 +115,41 @@ a {
 }
 
 /* extra features style */
- .love-img {
-    width: 800px; height: 1059px;
-    border: 1px solid red;
+#love-title {
+    border-left: 5px solid #FF9000;
+    padding-left: 20px;
+}
+.exta-features {
+    gap: 54px;
+}
+.love-container {
+    background-color:rgb(251, 247, 247);
+}
+.love-des {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.
+ #large{
+    font-size: 4rem;
+    font-weight: bold;
+ } 
+ .badge {
+    font-size: 1.5rem;
+    font-weight:500;
+    padding: 45px 42px;
+    margin-left: -92px;
+    margin-top: -150px;
  }
- #size {
-    width: 708px; height: 982px;
-    margin-left: 70px;
- }
+ #exp {
+    
+     
+  } 
+ 
+ 
 
  /* facts style */
  .fact-container {
@@ -185,36 +212,20 @@ a {
     filter: grayscale(100%);
  }
  /* footer style */
-.footer {
+footer {
+padding: 50px;
+font-size:1rem;
+font-weight: regular;
+text-align: center;
+margin-top: 130px;
+    
+}
 
 /* responsive style */
 
-@media screen and (max-width: 576px)  {
-    .team, ul, .navbar {
-     flex-direction: column;
+@media screen and (max-width: 576px) {
+    width: 100%;
+    #nav, #bar  {
+        flex-direction: columns;
     }
-    
-    .fe-pi-container {
-     grid-template-columns: 1fr;
-    }
-    .txt {
-     text-align: center;
-     }
-     .navbar, .banner {
-         padding: 0 10px;
-      }
- }
- /* medium size device */
- 
- @media screen and (min-width: 576px) and (max-width: 992px) {
-    .team, ul, .navbar {
-     flex-direction: column;
-    
-    }
-    .txt {
-     text-align: center;
-     }
-    
- }
-
-
+}
